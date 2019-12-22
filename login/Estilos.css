@@ -1,0 +1,126 @@
+body {
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cuerpo {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contenedor_sfr {
+    padding-top: 0px;
+    padding-left: 250px;
+}
+
+.cuadro_login {
+    display: grid;
+    position: absolute;
+    grid-template-rows: 30% 20% 20% 20% 10%;
+    width: 600px;
+    height: 450px;
+    left: 420px;
+    top: 287px;
+    background: #F2FCFF;
+    border: 2px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: auto;
+}
+
+.cabecera {
+    width: 303px;
+    height: 49px;
+    left: 569px;
+    top: 316px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    color: #5AD2AE;
+}
+
+.caja_text {
+    width: 500px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 49px;
+    color: #5AD2AE;
+}
+
+.caja_log:hover {
+    background: rgb(55, 128, 106);
+    border: 1px solid #469F85;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    width: 500px;
+    height: 80px;
+    border: 1px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 49px;
+    color: white;
+}
+
+.caja_log {
+    background: #5AD2AE;
+    border: 1px solid #469F85;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    width: 500px;
+    height: 80px;
+    border: 1px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 49px;
+    color: white;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #AFAFAF;
+}

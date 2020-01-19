@@ -1,0 +1,118 @@
+body {
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cuerpo {
+    position: relative;
+    text-align: center;
+    width: 1440px;
+    height: 1024px;
+    background: #E5E5E5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.cuadro_login {
+    display: grid;
+    width: 600px;
+    height: 450px;
+    left: 420px;
+    top: 287px;
+    padding: 50px;
+    padding-top: 1px;
+    grid-template-rows: 100px 90px 90px 80px 70px;
+    position: absolute;
+    text-align: center;
+    font-weight: normal;
+    background: #F2FCFF;
+    border: 2px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.cabecera {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    color: #5AD2AE;
+}
+
+.caja_text {
+    width: 500px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #5AD2AE;
+}
+
+.caja_log:hover {
+    background: rgb(55, 128, 106);
+    border: 1px solid #469F85;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    width: 500px;
+    height: 80px;
+    border: 1px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: white;
+}
+
+.caja_log {
+    background: #5AD2AE;
+    border: 1px solid #469F85;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    width: 500px;
+    height: 80px;
+    border: 1px solid #C3F1FF;
+    box-sizing: border-box;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: white;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #AFAFAF;
+}
+
+.errorms {
+    color: red;
+}
+
+.ocult {
+    display: none;
+}
+
+msje {
+    display: block;
+}

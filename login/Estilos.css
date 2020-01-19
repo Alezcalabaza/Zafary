@@ -12,40 +12,88 @@ body {
 
 .cuerpo {
     position: relative;
+<<<<<<< HEAD
     text-align: center;
     width: 1440px;
     height: 1024px;
     background: #E5E5E5;
+=======
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.contenedor {
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+<<<<<<< HEAD
     text-align: center;
+=======
+}
+
+.contenedor_sfr {
+    padding-top: 0px;
+    padding-left: 250px;
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
 }
 
 .cuadro_login {
     display: grid;
+<<<<<<< HEAD
+=======
+    position: absolute;
+    grid-template-rows: 30% 20% 20% 20% 10%;
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
     width: 600px;
     height: 450px;
     left: 420px;
     top: 287px;
+<<<<<<< HEAD
     padding: 50px;
     padding-top: 1px;
     grid-template-rows: 100px 90px 90px 80px 70px;
     position: absolute;
     text-align: center;
     font-weight: normal;
+=======
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
     background: #F2FCFF;
     border: 2px solid #C3F1FF;
     box-sizing: border-box;
     border-radius: 30px;
+<<<<<<< HEAD
 }
 
 .cabecera {
+=======
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: auto;
+}
+
+.cabecera {
+    width: 303px;
+    height: 49px;
+    left: 569px;
+    top: 316px;
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 42px;
+<<<<<<< HEAD
+=======
+    line-height: 49px;
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
     color: #5AD2AE;
 }
 
@@ -60,6 +108,10 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
+<<<<<<< HEAD
+=======
+    line-height: 49px;
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
     color: #5AD2AE;
 }
 
@@ -77,6 +129,10 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
+<<<<<<< HEAD
+=======
+    line-height: 49px;
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
     color: white;
 }
 
@@ -89,10 +145,18 @@ body {
     height: 80px;
     border: 1px solid #C3F1FF;
     box-sizing: border-box;
+<<<<<<< HEAD
+=======
+    border-radius: 39.5px;
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
+<<<<<<< HEAD
+=======
+    line-height: 49px;
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
     color: white;
 }
 
@@ -103,6 +167,7 @@ p {
     font-size: 18px;
     line-height: 21px;
     color: #AFAFAF;
+<<<<<<< HEAD
 }
 
 .errorms {
@@ -115,4 +180,6 @@ p {
 
 msje {
     display: block;
+=======
+>>>>>>> 7198161bab67de08a7f04ef94e24a75a91678b01
 }
